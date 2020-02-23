@@ -1,0 +1,3 @@
+#!/bin/bash
+#Get keyboard layout
+cat /etc/default/keyboard | awk 'NR==6'

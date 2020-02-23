@@ -1,0 +1,4 @@
+#!/bin/bash
+#Get drives and partitions
+echo "DRIVES AND PARTITIONS:"
+lsblk | more

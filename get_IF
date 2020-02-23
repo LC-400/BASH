@@ -1,0 +1,4 @@
+#!/bin/bash
+# Get network interfaces in a numbered list. 
+echo "NETWORK INTERFACES:"
+cat /proc/net/dev | awk 'NR>2{print$1}' |sed 's|:||'|nl

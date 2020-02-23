@@ -1,0 +1,4 @@
+#!/bin/bash
+#Get filesystem and resources available
+echo "FILESYSTEM:"
+df| more

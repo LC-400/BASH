@@ -1,0 +1,3 @@
+#!/bin/bash
+#Get LANGUAGE and PATH on the system
+echo -n "PATH:";echo $PATH;echo -n "LANGUAGE:";echo $LANG

@@ -1,0 +1,4 @@
+#!/bin/bash
+#Get desktop prefix
+echo -n "DESKTOP:"
+echo $XDG_CURRENT_DESKTOP;

@@ -1,0 +1,4 @@
+#!/bin/bash
+#Get distro in pretty name-format
+echo -n "DISTRO:"
+cat /etc/*-release | awk 'NR==1'
